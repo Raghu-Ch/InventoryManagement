@@ -1,0 +1,37 @@
+.logo {
+  font-style: oblique;
+  letter-spacing: 1px;
+}
+
+nav {
+  margin-left: 26px;
+}
+
+.nav_header {
+  list-style-type: none;
+  overflow: hidden;
+  /* padding: 0; */
+}
+
+.nav_header li {
+  float: left;
+}
+
+li a {
+  display: block;
+  padding: 8px 14px;
+  color: white;
+  text-decoration: none;
+}
+
+li a:hover {
+  background: #424242;
+}
+.demo-tab-content {
+  color: white;
+  padding: 16px;
+}
+.container {
+  margin: 2em auto;
+  width: 70%;
+}
