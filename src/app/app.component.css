@@ -4,7 +4,8 @@
 }
 
 nav {
-  margin-left: 26px;
+  margin-left: 25px;
+  width: 100% !important;
 }
 
 .nav_header {
@@ -15,6 +16,11 @@ nav {
 
 .nav_header li {
   float: left;
+  padding: .2em;
+}
+
+.nav_header li:last-child {
+  float: right;
 }
 
 li a {
@@ -26,12 +32,15 @@ li a {
 
 li a:hover {
   background: #424242;
+  /* color: #e91e63; */
 }
-.demo-tab-content {
-  color: white;
-  padding: 16px;
-}
+
 .container {
   margin: 2em auto;
   width: 70%;
+}
+
+.active {
+  background: #424242;
+  border-radius: 25%;
 }

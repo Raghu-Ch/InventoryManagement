@@ -5,7 +5,7 @@
     <nav>
       <ul class="nav_header">
         <li>
-          <a href="#">Home</a>
+          <a routerLink="/home" routerLinkActive="active">Home</a>
         </li>
         <li>
           <a href="#">Products</a>
@@ -14,29 +14,12 @@
           <a href="#">Add Product</a>
         </li>
         <li>
-          <a href="#">LogIn</a>
+          <a routerLink="/login" routerLinkActive="active">LogIn</a>
         </li>
       </ul>
     </nav>
   </mat-toolbar-row>
 </mat-toolbar>
-<div class="container">
-  <mat-card>
-    <mat-tab-group>
-      <mat-tab label="About">
-        <div class="demo-tab-content">
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
-          text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
-          book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially
-          unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-          and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-        </div>
-      </mat-tab>
-      <mat-tab label="Dashboard">
-        <div class="demo-tab-content">
-          Content 2
-        </div>
-      </mat-tab>
-    </mat-tab-group>
-  </mat-card>
+<div class="container ">
+  <router-outlet></router-outlet>
 </div>
